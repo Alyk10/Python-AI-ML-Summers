@@ -37,8 +37,8 @@ print(list_Aly)
 string1='orange mango'
 print(string1[1:5]) #slicing from index 1 to 4  #output = rang
 numbers=[0,1,2,3,4,5,6,7]  #agar humne left to right jana hai to index 0 se start hoga aur right to left jana hai to index -1 se start hoga and slicing me last index ko include nahi kiya jata hai
-print(numbers[:-3])
-print(numbers[2:-3]) #slicing from index 2 to 5  #output = [2, 3, 4, 5
+print(numbers[:-3]) #slicing from index 0 to 4  #output = [0, 1, 2, 3, 4]
+print(numbers[2:-3]) #slicing from index 2 to 5  #output = [2, 3, 4, 5]
 print(numbers[::-1]) #reverse list
 print(numbers[::-3]) #output = [0, 3, 6]  #reverse list with step size of 3 """
 stringA='20'
